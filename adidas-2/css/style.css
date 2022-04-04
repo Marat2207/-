@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header nav{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .menu{
+    display: flex;
+}
+
+header nav .menu a{
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+    padding: 25px 15px;
+    transition: 0.5s;
+    display: block;
+}
+
+header nav .menu a:hover{
+    background: black;
+    color: #fff;
+}
+
+/* header end */
+/* ************************************* */
+/* main - adidas-text satrt */
+
+.adidas-text{
+    background: url(../img/header-fon.jpg) no-repeat center/cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.adidas-text h1{
+    font-size: 56px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.adidas-text p{
+    color: #fff;
+    font-size: 16px;
+}
+/* adidas-text end */
+.adidas-block{
+    background: rgb(179, 179, 255)
+}
+.adidas-block .block{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adidas-block .block-left{
+    width: 540px;
+    border:2px solid  black;
+     border-radius: 15px;
+    background-color: aliceblue;
+    padding: 15px; 
+    height: 600px;
+    margin-top: -36px;
+}
+.adidas-block .block-left h2{
+ font-size: 20px;   
+    color: black;
+    font-weight: 700;
+    margin-top: 30px
+}
+.adidas-block p{
+    font-size: 16px;
+    color: cyan;
+    margin-top: 19px;
+}
+
+
+
+.adidas-block .block-right{
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -36px;
+}
+
+.adidas-block .block-right .block-box{
+    width: 250px;
+    border-radius: 15px;
+    border: 2px solid #000;
+    background: #fff;
+    padding: 16px;
+}
+
+.adidas-block .block-right h3{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px;
+}
+.adidas-block .block-right p{
+    font-size: 17px;
+    color: #515050;
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: start;
+}
+
+/* adidas end */
+
+footer .footer-block{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    padding-top: 61px;
+    padding-bottom:  38px; 
+    display: flex;
+    justify-content: space-between;
+}
+footer.footer-text{
+    width: 525px;
+}
+footer .footer-text h4{
+    font-size: 16px
+}
+footer .footer-text p{
+    font-size: 16px;
+     color: #515050;
+     margin-top: 18px;
+}
+

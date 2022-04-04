@@ -1,0 +1,65 @@
+@import'fonts.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: arial;
+    background: #88898a;
+}
+header{
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    height: 500px;
+    background: url(../img/png-transparent-earth-globe-whole-world-globe-logo-world.jpg);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 65px;
+}
+header h1{
+    font-size: 50px;
+    color: darkgray;
+    font-family: 'regular';
+    position: relative;
+    z-index: 2;
+    margin-top: 40px;
+}
+header h1::after{
+    content: '';
+    width: 100px;
+    height: 53px;
+    background: #d16a3a;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    z-index: -1;
+}
+header p{
+    font-size: 16px;
+    color: #464748;
+    max-width: 331px;
+    width: 100%;
+    margin-top: 40px;
+    cursor: pointer;
+}
+header button{
+    color: aliceblue;
+    font-size: 16px;
+    background: #d16a3a;
+    border: none;
+    padding: 10px 61px;
+    border-radius: 50px;
+    margin-top: 45px;
+    box-shadow: 0 0 15px 7px #d9d9d9;
+    transition: 0,5s;
+    
+}
+header button:hover{
+    box-shadow: 0 0 0 0 #d9d9d9;
+}
